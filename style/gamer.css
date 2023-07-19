@@ -1,0 +1,35 @@
+/*  word sans font frome google */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,300&family=Poppins:wght@500&family=Work+Sans:ital,wght@0,500;0,800;1,100;1,400&display=swap');
+
+
+  * {
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  header{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    box-shadow: 0px 5px 2px rgb(182, 181, 181) ;
+    
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 140px;
+    align-items: center;
+    margin: 0px;
+   
+  }
+
+  .nav-title{
+    font-size: 3rem;
+  }
+  nav > ul{
+    display: flex;
+  }
+  nav li {
+    list-style: none;
+    padding-right: 32px;
+    font-size: 18px;
+    font-weight: 500px;
+  }
